@@ -1,0 +1,2105 @@
+{
+  "generatedAt": "2026-04-03T19:42:13.370Z",
+  "sourceFile": "Official NASA Schedule",
+  "workbook": {
+    "sheetCount": 1,
+    "sheetNames": [
+      "Mission Schedule"
+    ],
+    "sheets": [
+      {
+        "name": "Mission Schedule",
+        "rowCount": 258,
+        "colCount": 9,
+        "rows": [
+          [
+            "*****************************************************************************************************************************************************************************************"
+          ],
+          [
+            "NASA+ / YOUTUBE STREAMING BROADCAST SCHEDULE"
+          ],
+          [
+            "Artemis II"
+          ],
+          [
+            "REV:A"
+          ],
+          [
+            "*****************************************************************************************************************************************************************************************"
+          ],
+          [
+            "ALL TIMES SUBJECT TO CHANGE"
+          ],
+          [
+            "This TV schedule is available via the Internet. The address is: https://www.nasa.gov/live/"
+          ],
+          [
+            "24/7 YouTube Coverage: https://www.youtube.com/@nasa/streams"
+          ],
+          [
+            "NASA+ Coverage: https://plus.nasa.gov/"
+          ],
+          [],
+          [
+            "",
+            "",
+            "LAUNCH",
+            "KSC",
+            "00/",
+            "00:00",
+            "4/1/26 17:35",
+            "4/1/26 18:35",
+            "4/1/26 22:35"
+          ],
+          [],
+          [
+            "ORBIT",
+            "",
+            "SUBJECT",
+            "SITE",
+            "",
+            "MET",
+            "CDT",
+            "EDT",
+            "GMT"
+          ],
+          [
+            "Thursday, April 2"
+          ],
+          [
+            "Flight Day 1/2"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW WAKEUP (BEGINS FLIGHT DAY 2)",
+            "",
+            "00/",
+            "20:00",
+            "1:35 PM",
+            "02:35 PM",
+            "18:35"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW IS GIVEN A \"GO/NO GO\" FOR TLI",
+            "",
+            "01/",
+            "00:43",
+            "6:18 PM",
+            "07:18 PM",
+            "23:18"
+          ],
+          [],
+          [
+            "",
+            "",
+            "TLI BURN",
+            "",
+            "01/",
+            "01:14",
+            "6:49 PM",
+            "07:49 PM",
+            "23:49"
+          ],
+          [],
+          [
+            "",
+            "",
+            "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+            "",
+            "01/",
+            "01:55",
+            "7:30 PM",
+            "08:30 PM",
+            "0:30"
+          ],
+          [],
+          [
+            "",
+            "",
+            "NASA PAO EVENT",
+            "",
+            "01/",
+            "04:00",
+            "9:35 PM",
+            "10:35 PM",
+            "2:35"
+          ],
+          [],
+          [
+            "Friday, April 3"
+          ],
+          [
+            "Flight Day 2/3"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW SLEEP BEGINS",
+            "",
+            "01/",
+            "09:30",
+            "3:05 AM",
+            "04:05 AM",
+            "8:05"
+          ],
+          [],
+          [
+            "",
+            "",
+            "FLIGHT DAY 2 HIGHLIGHTS (REPLAYS 5AM, 6AM, 7AM, 8AM, 9AM & 10AM CT)",
+            "",
+            "01/",
+            "10:25",
+            "4:00 AM",
+            "05:00 AM",
+            "9:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW WAKEUP (BEGINS FLIGHT DAY 3)",
+            "",
+            "01/",
+            "18:00",
+            "11:35 AM",
+            "12:35 PM",
+            "16:35"
+          ],
+          [],
+          [
+            "",
+            "",
+            "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+            "",
+            "01/",
+            "20:55",
+            "2:30 PM",
+            "03:30 PM",
+            "19:30"
+          ],
+          [],
+          [
+            "",
+            "",
+            "OTC-1 BURN",
+            "",
+            "02/",
+            "00:14",
+            "5:49 PM",
+            "06:49 PM",
+            "22:49"
+          ],
+          [],
+          [
+            "",
+            "",
+            "LUNAR FLYBY CABIN CONFIGURATION",
+            "",
+            "02/",
+            "04:35",
+            "10:10 PM",
+            "11:10 PM",
+            "3:10"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CSA PAO EVENT",
+            "",
+            "02/",
+            "06:35",
+            "12:10 AM",
+            "01:10 AM",
+            "5:10"
+          ],
+          [],
+          [
+            "Saturday, April 4"
+          ],
+          [
+            "Flight Day 3/4"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW SLEEP BEGINS",
+            "",
+            "02/",
+            "09:30",
+            "3:05 AM",
+            "04:05 AM",
+            "8:05"
+          ],
+          [],
+          [
+            "",
+            "",
+            "FLIGHT DAY 3 HIGHLIGHTS (REPLAYS 5AM, 6AM, 7AM, 8AM, 9AM & 10AM CT)",
+            "",
+            "02/",
+            "10:25",
+            "4:00 AM",
+            "05:00 AM",
+            "9:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW WAKEUP (BEGINS FLIGHT DAY 4)",
+            "",
+            "02/",
+            "18:00",
+            "11:35 AM",
+            "12:35 PM",
+            "16:35"
+          ],
+          [],
+          [
+            "",
+            "",
+            "NASA PAO EVENT (SAW CAMERA \"Selfie\")",
+            "",
+            "02/",
+            "20:25",
+            "2:00 PM",
+            "03:00 PM",
+            "19:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "NASA PAO EVENT",
+            "",
+            "02/",
+            "22:10",
+            "3:45 PM",
+            "04:45 PM",
+            "20:45"
+          ],
+          [],
+          [
+            "",
+            "",
+            "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+            "",
+            "02/",
+            "22:55",
+            "4:30 PM",
+            "05:30 PM",
+            "21:30"
+          ],
+          [],
+          [
+            "",
+            "",
+            "OTC-2 BURN",
+            "",
+            "03/",
+            "01:14",
+            "6:49 PM",
+            "07:49 PM",
+            "23:49"
+          ],
+          [],
+          [
+            "",
+            "",
+            "MANUAL PILOTING DETAILED FLIGHT TEST OBJECTIVE",
+            "",
+            "03/",
+            "02:35",
+            "8:10 PM",
+            "09:10 PM",
+            "1:10"
+          ],
+          [],
+          [
+            "",
+            "",
+            "LUNAR IMAGING REVIEW FOR FLYBY OPERATIONS",
+            "",
+            "03/",
+            "03:10",
+            "8:45 PM",
+            "09:45 PM",
+            "1:45"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CSA VIP Call",
+            "",
+            "03/",
+            "05:50",
+            "11:25 PM",
+            "12:25 AM",
+            "4:25"
+          ],
+          [],
+          [
+            "Sunday, April 5"
+          ],
+          [
+            "Flight Day 4/5"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW SLEEP BEGINS",
+            "",
+            "03/",
+            "08:45",
+            "2:20 AM",
+            "03:20 AM",
+            "7:20"
+          ],
+          [],
+          [
+            "",
+            "",
+            "FLIGHT DAY 4 HIGHLIGHTS (REPLAYS 4AM, 5AM, 6AM, 7AM, 8AM & 9AM CT)",
+            "",
+            "03/",
+            "09:25",
+            "3:00 AM",
+            "04:00 AM",
+            "8:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW WAKEUP (BEGINS FLIGHT DAY 5)",
+            "",
+            "03/",
+            "17:15",
+            "10:50 AM",
+            "11:50 AM",
+            "15:50"
+          ],
+          [],
+          [
+            "",
+            "",
+            "OCSS SUIT DETAILED FLIGHT TEST OBJECTIVES",
+            "",
+            "03/",
+            "19:45",
+            "1:20 PM",
+            "02:20 PM",
+            "18:20"
+          ],
+          [],
+          [
+            "",
+            "",
+            "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+            "",
+            "03/",
+            "20:55",
+            "2:30 PM",
+            "03:30 PM",
+            "19:30"
+          ],
+          [],
+          [
+            "",
+            "",
+            "OTC-3 BURN",
+            "",
+            "04/",
+            "04:28",
+            "10:03 PM",
+            "11:03 PM",
+            "3:03"
+          ],
+          [],
+          [
+            "",
+            "",
+            "INTEGRITY ENTERS THE LUNAR SPHERE OF INFLUENCE",
+            "",
+            "04/",
+            "06:06",
+            "11:41 PM",
+            "12:41 AM",
+            "4:41"
+          ],
+          [],
+          [
+            "Monday, April 6"
+          ],
+          [
+            "Flight Day 5/6"
+          ],
+          [],
+          [],
+          [
+            "",
+            "",
+            "CREW SLEEP BEGINS",
+            "",
+            "04/",
+            "07:45",
+            "1:20 AM",
+            "02:20 AM",
+            "6:20"
+          ],
+          [],
+          [
+            "",
+            "",
+            "FLIGHT DAY 5 HIGHLIGHTS (REPLAYS 3AM, 4AM, 5AM, 6AM, 7AM & 8M CT)",
+            "",
+            "04/",
+            "08:25",
+            "2:00 AM",
+            "03:00 AM",
+            "7:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW WAKEUP (BEGINS FLIGHT DAY 6)",
+            "",
+            "04/",
+            "16:15",
+            "9:50 AM",
+            "10:50 AM",
+            "14:50"
+          ],
+          [],
+          [
+            "",
+            "",
+            "NASA+ COVERAGE BEGINS",
+            "",
+            "04/",
+            "18:25",
+            "12:00 PM",
+            "01:00 PM",
+            "17:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "INTEGRITY PASSES THE APOLLO 13 DISTANCE RECORD",
+            "",
+            "04/",
+            "19:21",
+            "12:56 PM",
+            "01:56 PM",
+            "17:56"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW RECOGNIZES APOLLO 13 DISTANCE RECORD (AUDIO ONLY)",
+            "",
+            "04/",
+            "19:35",
+            "1:10 PM",
+            "02:10 PM",
+            "18:10"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW CONFIGURE INTEGRITY'S CABIN FOR FLYBY OPERATIONS",
+            "",
+            "04/",
+            "19:40",
+            "1:15 PM",
+            "02:15 PM",
+            "18:15"
+          ],
+          [],
+          [
+            "",
+            "",
+            "LUNAR OBSERVATION PERIOD (FLYBY) BEGINS",
+            "",
+            "04/",
+            "20:10",
+            "1:45 PM",
+            "02:45 PM",
+            "18:45"
+          ],
+          [],
+          [
+            "",
+            "",
+            "INTERIOR VIEWS OF THE CREW DURING LUNAR FLYBY",
+            "",
+            "04/",
+            "22:00",
+            "3:35 PM",
+            "04:35 PM",
+            "20:35"
+          ],
+          [],
+          [
+            "",
+            "",
+            "PREDICTED LOSS OF COMMUNICATION AS CREW HEADS BEHIND THE MOON (ESTIMATIED TO LAST 40-MIN)",
+            "",
+            "05/",
+            "00:12",
+            "5:47 PM",
+            "06:47 PM",
+            "22:47"
+          ],
+          [],
+          [
+            "",
+            "",
+            "INTEGRITY MAKES IT'S CLOSEST APPROACH TO THE MOON",
+            "",
+            "05/",
+            "00:30",
+            "6:05 PM",
+            "07:05 PM",
+            "23:05"
+          ],
+          [],
+          [
+            "",
+            "",
+            "INTEGRITY REACHES ITS MAXIMUM DISTANCE FROM THE EARTH",
+            "",
+            "05/",
+            "00:34",
+            "6:09 PM",
+            "07:09 PM",
+            "23:09"
+          ],
+          [],
+          [
+            "",
+            "",
+            "PREDICTED ACQUISITION OF SINGAL WITH INTEGRITY",
+            "",
+            "05/",
+            "00:52",
+            "6:27 PM",
+            "07:27 PM",
+            "23:27"
+          ],
+          [],
+          [
+            "",
+            "",
+            "LUNAR OBSERVATION PERIOD (FLYBY) CONCLUDES",
+            "",
+            "05/",
+            "03:05",
+            "8:40 PM",
+            "09:40 PM",
+            "1:40"
+          ],
+          [],
+          [
+            "",
+            "",
+            "NASA+ COVERAGE CONCLUDES",
+            "",
+            "05/",
+            "03:25",
+            "9:00 PM",
+            "10:00 PM",
+            "2:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "NASA PAO EVENT",
+            "",
+            "05/",
+            "04:15",
+            "9:50 PM",
+            "10:50 PM",
+            "2:50"
+          ],
+          [],
+          [
+            "Tuesday, April 7"
+          ],
+          [
+            "Flight Day 6/7"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW SLEEP BEGINS",
+            "",
+            "05/",
+            "07:30",
+            "1:05 AM",
+            "02:05 AM",
+            "6:05"
+          ],
+          [],
+          [
+            "",
+            "",
+            "FLIGHT DAY 6 HIGHLIGHTS (REPLAYS 3AM, 4AM, 5AM, 6PM, 7AM, 8AM & 9AM CT)",
+            "",
+            "05/",
+            "08:25",
+            "2:00 AM",
+            "03:00 AM",
+            "7:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW WAKEUP (BEGINS FLIGHT DAY 7)",
+            "",
+            "05/",
+            "17:00",
+            "10:35 AM",
+            "11:35 AM",
+            "15:35"
+          ],
+          [],
+          [
+            "",
+            "",
+            "INTEGRITY LEAVES THE LUNAR SPHERE OF INFLUENCE EN ROUTE BACK TO EARTH",
+            "",
+            "05/",
+            "18:53",
+            "12:28 PM",
+            "01:28 PM",
+            "17:28"
+          ],
+          [],
+          [
+            "",
+            "",
+            "NASA PAO EVENT - INTEGRITY TO ISS SHIP-TO-SHIP CALL (AUDIO ONLY)",
+            "",
+            "05/",
+            "20:05",
+            "1:40 PM",
+            "02:40 PM",
+            "18:40"
+          ],
+          [],
+          [
+            "",
+            "",
+            "POST-FLYBY CREW DEBRIEF WITH SCIENCE OFFICIALS",
+            "",
+            "05/",
+            "20:25",
+            "2:00 PM",
+            "03:00 PM",
+            "19:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW BEGINS ITS OFF-DUTY PERIOD",
+            "",
+            "05/",
+            "20:55",
+            "2:30 PM",
+            "03:30 PM",
+            "19:30"
+          ],
+          [],
+          [
+            "",
+            "",
+            "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+            "",
+            "05/",
+            "21:25",
+            "3:00 PM",
+            "04:00 PM",
+            "20:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "RTC-1 BURN",
+            "",
+            "06/",
+            "02:28",
+            "8:03 PM",
+            "09:03 PM",
+            "1:03"
+          ],
+          [],
+          [
+            "Wednesday, April 8"
+          ],
+          [
+            "Flight Day 7/8"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW SLEEP BEGINS",
+            "",
+            "06/",
+            "08:30",
+            "2:05 AM",
+            "03:05 AM",
+            "7:05"
+          ],
+          [],
+          [
+            "",
+            "",
+            "FLIGHT DAY 7 HIGHLIGHTS (REPLAYS 4AM, 5AM, 6PM, 7AM, 8AM & 9AM CT)",
+            "",
+            "06/",
+            "09:25",
+            "3:00 AM",
+            "04:00 AM",
+            "8:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW WAKEUP (BEGINS FLIGHT DAY 8)",
+            "",
+            "06/",
+            "17:00",
+            "10:35 AM",
+            "11:35 AM",
+            "15:35"
+          ],
+          [],
+          [
+            "",
+            "",
+            "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+            "",
+            "06/",
+            "20:55",
+            "2:30 PM",
+            "03:30 PM",
+            "19:30"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CSA PAO EVENT",
+            "",
+            "07/",
+            "00:45",
+            "6:20 PM",
+            "07:20 PM",
+            "23:20"
+          ],
+          [],
+          [
+            "",
+            "",
+            "RADIATION SHIELDING DEPLOYMENT DEMONSTRATION",
+            "",
+            "07/",
+            "01:40",
+            "7:15 PM",
+            "08:15 PM",
+            "0:15"
+          ],
+          [],
+          [
+            "",
+            "",
+            "MANUAL PILOTING DETAILED FLIGHT TEST OBJECTIVE",
+            "",
+            "07/",
+            "04:20",
+            "9:55 PM",
+            "10:55 PM",
+            "2:55"
+          ],
+          [],
+          [
+            "Thursday, April 9"
+          ],
+          [
+            "Flight Day 8/9"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW SLEEP BEGINS",
+            "",
+            "07/",
+            "08:25",
+            "2:00 AM",
+            "03:00 AM",
+            "7:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "FLIGHT DAY 8 HIGHLIGHTS (REPLAYS 4AM, 5AM, 6PM, 7AM, 8AM & 9AM CT)",
+            "",
+            "07/",
+            "09:25",
+            "3:00 AM",
+            "04:00 AM",
+            "8:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW WAKEUP (BEGINS FLIGHT DAY 9)",
+            "",
+            "07/",
+            "17:00",
+            "10:35 AM",
+            "11:35 AM",
+            "15:35"
+          ],
+          [],
+          [
+            "",
+            "",
+            "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+            "",
+            "07/",
+            "20:55",
+            "2:30 PM",
+            "03:30 PM",
+            "19:30"
+          ],
+          [],
+          [
+            "",
+            "",
+            "PAO EVENT – CREW NEWS CONFERENCE (20 mins.)",
+            "",
+            "07/",
+            "23:35",
+            "5:10 PM",
+            "06:10 PM",
+            "22:10"
+          ],
+          [],
+          [
+            "",
+            "",
+            "NASA PAO EVENT",
+            "",
+            "08/",
+            "01:30",
+            "7:05 PM",
+            "08:05 PM",
+            "0:05"
+          ],
+          [],
+          [
+            "",
+            "",
+            "RTC-2 BURN",
+            "",
+            "08/",
+            "04:18",
+            "9:53 PM",
+            "10:53 PM",
+            "2:53"
+          ],
+          [],
+          [
+            "Friday, April 10"
+          ],
+          [
+            "Flight Day 9/10"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW SLEEP BEGINS",
+            "",
+            "08/",
+            "08:25",
+            "2:00 AM",
+            "03:00 AM",
+            "7:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "FLIGHT DAY 9 HIGHLIGHTS (REPLAYS 4AM, 5AM, 6PM, 7AM, 8AM & 9AM CT)",
+            "",
+            "08/",
+            "09:25",
+            "3:00 AM",
+            "04:00 AM",
+            "08:00"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW WAKEUP (BEGINS FLIGHT DAY 10)",
+            "",
+            "08/",
+            "17:00",
+            "10:35 AM",
+            "11:35 AM",
+            "15:35"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CABIN CONFIGURATION FOR ENTRY BEGINS",
+            "",
+            "08/",
+            "19:15",
+            "12:50 PM",
+            "01:50 PM",
+            "17:50"
+          ],
+          [],
+          [
+            "",
+            "",
+            "RTC-3 BURN",
+            "",
+            "08/",
+            "20:18",
+            "1:53 PM",
+            "02:53 PM",
+            "18:53"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW CONTINUES TO CONFIGURE INTEGRITY'S CABIN FOR ENTRY",
+            "",
+            "08/",
+            "20:45",
+            "2:20 PM",
+            "03:20 PM",
+            "19:20"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW MOVES INTO ITS ENTRY CHECKLIST",
+            "",
+            "08/",
+            "22:30",
+            "4:05 PM",
+            "05:05 PM",
+            "21:05"
+          ],
+          [],
+          [
+            "",
+            "",
+            "NASA+ COVERAGE BEGINS",
+            "",
+            "09/",
+            "00:10",
+            "5:45 PM",
+            "06:45 PM",
+            "22:45"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW MODULE/SERVICE MODULE SEPARATION",
+            "",
+            "09/",
+            "01:09",
+            "6:44 PM",
+            "07:44 PM",
+            "23:44"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW MODULE RAISE BURN",
+            "",
+            "09/",
+            "01:12",
+            "6:47 PM",
+            "07:47 PM",
+            "23:47"
+          ],
+          [],
+          [
+            "",
+            "",
+            "ENTRY INTERFACE",
+            "",
+            "09/",
+            "01:18",
+            "6:53 PM",
+            "07:53 PM",
+            "23:53"
+          ],
+          [],
+          [
+            "",
+            "",
+            "SPLASHDOWN",
+            "",
+            "09/",
+            "01:31",
+            "7:06 PM",
+            "08:06 PM",
+            "0:06"
+          ],
+          [],
+          [
+            "",
+            "",
+            "INTEGRITY POWERDOWN (TIMING IS VARIABLE)",
+            "",
+            "09/",
+            "01:46",
+            "7:21 PM",
+            "08:21 PM",
+            "0:21"
+          ],
+          [],
+          [
+            "",
+            "",
+            "TARGETED TIME FOR EXTRACTION OF THE CREW (TIME SUBJECT TO CHANGE)",
+            "",
+            "09/",
+            "02:30",
+            "8:05 PM",
+            "09:05 PM",
+            "1:05"
+          ],
+          [],
+          [
+            "",
+            "",
+            "CREW ARRIVES ON RECOVERY SHIP (NASA+ COVERAGE CONCLUDES)",
+            "",
+            "09/",
+            "03:00",
+            "8:35 PM",
+            "09:35 PM",
+            "1:35"
+          ],
+          [],
+          [
+            "",
+            "",
+            "POST-SPLASHDOWN NEWS CONFERENCE (JSC) (TIME SUBJECT TO CHANGE)",
+            "",
+            "09/",
+            "03:55",
+            "9:30 PM",
+            "10:30 PM",
+            "2:30"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [
+            "",
+            "",
+            "Acronyms List:"
+          ],
+          [
+            "",
+            "",
+            "SLS: Space Launch System"
+          ],
+          [
+            "",
+            "",
+            "MECO: Main Engine Cutoff"
+          ],
+          [
+            "",
+            "",
+            "ICPS: Interim Cryogenic Propulsion Stage"
+          ],
+          [
+            "",
+            "",
+            "PAO: Public Affairs Office"
+          ],
+          [
+            "",
+            "",
+            "KSC: Kennedy Space Center"
+          ],
+          [
+            "",
+            "",
+            "USS-2: Upper Stage Separation"
+          ],
+          [
+            "",
+            "",
+            "TLI: Trans-lunar Injection"
+          ],
+          [
+            "",
+            "",
+            "OTC: Outbound Trajectory Correction"
+          ],
+          [
+            "",
+            "",
+            "CSA: Canadian Space Agency"
+          ],
+          [
+            "",
+            "",
+            "OCSS:Orion Crew Survival Systems"
+          ],
+          [
+            "",
+            "",
+            "RTC: Return Trajectory Correction"
+          ],
+          [
+            "",
+            "",
+            "SAW: Solar Array Wing"
+          ],
+          [
+            "",
+            "",
+            "MET: Mission Elapsed Time"
+          ],
+          [
+            "",
+            "",
+            "GMT: Greenwich Mean Time"
+          ],
+          [
+            "",
+            "",
+            "CDT: Central Daylight Time"
+          ],
+          [
+            "",
+            "",
+            "EDT: Eastern Daylight Time"
+          ],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          [],
+          []
+        ]
+      }
+    ]
+  },
+  "schedule": {
+    "source": "TV schedule XLS (Official NASA Schedule)",
+    "loadedAt": "2026-04-03T19:42:13.370Z",
+    "events": [
+      {
+        "id": "tv-16-1775154900000",
+        "rowIndex": 16,
+        "startTime": "2026-04-02T18:35:00.000Z",
+        "endTime": "2026-04-02T23:18:00.000Z",
+        "title": "CREW WAKEUP (BEGINS FLIGHT DAY 2)",
+        "description": "MET 00/20:00",
+        "metLabel": "00/20:00",
+        "metSeconds": 72000
+      },
+      {
+        "id": "tv-18-1775171880000",
+        "rowIndex": 18,
+        "startTime": "2026-04-02T23:18:00.000Z",
+        "endTime": "2026-04-02T23:49:00.000Z",
+        "title": "CREW IS GIVEN A \"GO/NO GO\" FOR TLI",
+        "description": "MET 01/00:43",
+        "metLabel": "01/00:43",
+        "metSeconds": 88980
+      },
+      {
+        "id": "tv-20-1775173740000",
+        "rowIndex": 20,
+        "startTime": "2026-04-02T23:49:00.000Z",
+        "endTime": "2026-04-03T00:30:00.000Z",
+        "title": "TLI BURN",
+        "description": "MET 01/01:14",
+        "metLabel": "01/01:14",
+        "metSeconds": 90840
+      },
+      {
+        "id": "tv-22-1775176200000",
+        "rowIndex": 22,
+        "startTime": "2026-04-03T00:30:00.000Z",
+        "endTime": "2026-04-03T02:35:00.000Z",
+        "title": "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+        "description": "MET 01/01:55",
+        "metLabel": "01/01:55",
+        "metSeconds": 93300
+      },
+      {
+        "id": "tv-24-1775183700000",
+        "rowIndex": 24,
+        "startTime": "2026-04-03T02:35:00.000Z",
+        "endTime": "2026-04-03T08:05:00.000Z",
+        "title": "NASA PAO EVENT",
+        "description": "MET 01/04:00",
+        "metLabel": "01/04:00",
+        "metSeconds": 100800
+      },
+      {
+        "id": "tv-29-1775203500000",
+        "rowIndex": 29,
+        "startTime": "2026-04-03T08:05:00.000Z",
+        "endTime": "2026-04-03T09:00:00.000Z",
+        "title": "CREW SLEEP BEGINS",
+        "description": "MET 01/09:30",
+        "metLabel": "01/09:30",
+        "metSeconds": 120600
+      },
+      {
+        "id": "tv-31-1775206800000",
+        "rowIndex": 31,
+        "startTime": "2026-04-03T09:00:00.000Z",
+        "endTime": "2026-04-03T16:35:00.000Z",
+        "title": "FLIGHT DAY 2 HIGHLIGHTS (REPLAYS 5AM, 6AM, 7AM, 8AM, 9AM & 10AM CT)",
+        "description": "MET 01/10:25",
+        "metLabel": "01/10:25",
+        "metSeconds": 123900
+      },
+      {
+        "id": "tv-33-1775234100000",
+        "rowIndex": 33,
+        "startTime": "2026-04-03T16:35:00.000Z",
+        "endTime": "2026-04-03T19:30:00.000Z",
+        "title": "CREW WAKEUP (BEGINS FLIGHT DAY 3)",
+        "description": "MET 01/18:00",
+        "metLabel": "01/18:00",
+        "metSeconds": 151200
+      },
+      {
+        "id": "tv-35-1775244600000",
+        "rowIndex": 35,
+        "startTime": "2026-04-03T19:30:00.000Z",
+        "endTime": "2026-04-03T22:49:00.000Z",
+        "title": "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+        "description": "MET 01/20:55",
+        "metLabel": "01/20:55",
+        "metSeconds": 161700
+      },
+      {
+        "id": "tv-37-1775256540000",
+        "rowIndex": 37,
+        "startTime": "2026-04-03T22:49:00.000Z",
+        "endTime": "2026-04-04T03:10:00.000Z",
+        "title": "OTC-1 BURN",
+        "description": "MET 02/00:14",
+        "metLabel": "02/00:14",
+        "metSeconds": 173640
+      },
+      {
+        "id": "tv-39-1775272200000",
+        "rowIndex": 39,
+        "startTime": "2026-04-04T03:10:00.000Z",
+        "endTime": "2026-04-04T05:10:00.000Z",
+        "title": "LUNAR FLYBY CABIN CONFIGURATION",
+        "description": "MET 02/04:35",
+        "metLabel": "02/04:35",
+        "metSeconds": 189300
+      },
+      {
+        "id": "tv-41-1775279400000",
+        "rowIndex": 41,
+        "startTime": "2026-04-04T05:10:00.000Z",
+        "endTime": "2026-04-04T08:05:00.000Z",
+        "title": "CSA PAO EVENT",
+        "description": "MET 02/06:35",
+        "metLabel": "02/06:35",
+        "metSeconds": 196500
+      },
+      {
+        "id": "tv-46-1775289900000",
+        "rowIndex": 46,
+        "startTime": "2026-04-04T08:05:00.000Z",
+        "endTime": "2026-04-04T09:00:00.000Z",
+        "title": "CREW SLEEP BEGINS",
+        "description": "MET 02/09:30",
+        "metLabel": "02/09:30",
+        "metSeconds": 207000
+      },
+      {
+        "id": "tv-48-1775293200000",
+        "rowIndex": 48,
+        "startTime": "2026-04-04T09:00:00.000Z",
+        "endTime": "2026-04-04T16:35:00.000Z",
+        "title": "FLIGHT DAY 3 HIGHLIGHTS (REPLAYS 5AM, 6AM, 7AM, 8AM, 9AM & 10AM CT)",
+        "description": "MET 02/10:25",
+        "metLabel": "02/10:25",
+        "metSeconds": 210300
+      },
+      {
+        "id": "tv-50-1775320500000",
+        "rowIndex": 50,
+        "startTime": "2026-04-04T16:35:00.000Z",
+        "endTime": "2026-04-04T19:00:00.000Z",
+        "title": "CREW WAKEUP (BEGINS FLIGHT DAY 4)",
+        "description": "MET 02/18:00",
+        "metLabel": "02/18:00",
+        "metSeconds": 237600
+      },
+      {
+        "id": "tv-52-1775329200000",
+        "rowIndex": 52,
+        "startTime": "2026-04-04T19:00:00.000Z",
+        "endTime": "2026-04-04T20:45:00.000Z",
+        "title": "NASA PAO EVENT (SAW CAMERA \"Selfie\")",
+        "description": "MET 02/20:25",
+        "metLabel": "02/20:25",
+        "metSeconds": 246300
+      },
+      {
+        "id": "tv-54-1775335500000",
+        "rowIndex": 54,
+        "startTime": "2026-04-04T20:45:00.000Z",
+        "endTime": "2026-04-04T21:30:00.000Z",
+        "title": "NASA PAO EVENT",
+        "description": "MET 02/22:10",
+        "metLabel": "02/22:10",
+        "metSeconds": 252600
+      },
+      {
+        "id": "tv-56-1775338200000",
+        "rowIndex": 56,
+        "startTime": "2026-04-04T21:30:00.000Z",
+        "endTime": "2026-04-04T23:49:00.000Z",
+        "title": "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+        "description": "MET 02/22:55",
+        "metLabel": "02/22:55",
+        "metSeconds": 255300
+      },
+      {
+        "id": "tv-58-1775346540000",
+        "rowIndex": 58,
+        "startTime": "2026-04-04T23:49:00.000Z",
+        "endTime": "2026-04-05T01:10:00.000Z",
+        "title": "OTC-2 BURN",
+        "description": "MET 03/01:14",
+        "metLabel": "03/01:14",
+        "metSeconds": 263640
+      },
+      {
+        "id": "tv-60-1775351400000",
+        "rowIndex": 60,
+        "startTime": "2026-04-05T01:10:00.000Z",
+        "endTime": "2026-04-05T01:45:00.000Z",
+        "title": "MANUAL PILOTING DETAILED FLIGHT TEST OBJECTIVE",
+        "description": "MET 03/02:35",
+        "metLabel": "03/02:35",
+        "metSeconds": 268500
+      },
+      {
+        "id": "tv-62-1775353500000",
+        "rowIndex": 62,
+        "startTime": "2026-04-05T01:45:00.000Z",
+        "endTime": "2026-04-05T04:25:00.000Z",
+        "title": "LUNAR IMAGING REVIEW FOR FLYBY OPERATIONS",
+        "description": "MET 03/03:10",
+        "metLabel": "03/03:10",
+        "metSeconds": 270600
+      },
+      {
+        "id": "tv-64-1775363100000",
+        "rowIndex": 64,
+        "startTime": "2026-04-05T04:25:00.000Z",
+        "endTime": "2026-04-05T07:20:00.000Z",
+        "title": "CSA VIP Call",
+        "description": "MET 03/05:50",
+        "metLabel": "03/05:50",
+        "metSeconds": 280200
+      },
+      {
+        "id": "tv-69-1775373600000",
+        "rowIndex": 69,
+        "startTime": "2026-04-05T07:20:00.000Z",
+        "endTime": "2026-04-05T08:00:00.000Z",
+        "title": "CREW SLEEP BEGINS",
+        "description": "MET 03/08:45",
+        "metLabel": "03/08:45",
+        "metSeconds": 290700
+      },
+      {
+        "id": "tv-71-1775376000000",
+        "rowIndex": 71,
+        "startTime": "2026-04-05T08:00:00.000Z",
+        "endTime": "2026-04-05T15:50:00.000Z",
+        "title": "FLIGHT DAY 4 HIGHLIGHTS (REPLAYS 4AM, 5AM, 6AM, 7AM, 8AM & 9AM CT)",
+        "description": "MET 03/09:25",
+        "metLabel": "03/09:25",
+        "metSeconds": 293100
+      },
+      {
+        "id": "tv-73-1775404200000",
+        "rowIndex": 73,
+        "startTime": "2026-04-05T15:50:00.000Z",
+        "endTime": "2026-04-05T18:20:00.000Z",
+        "title": "CREW WAKEUP (BEGINS FLIGHT DAY 5)",
+        "description": "MET 03/17:15",
+        "metLabel": "03/17:15",
+        "metSeconds": 321300
+      },
+      {
+        "id": "tv-75-1775413200000",
+        "rowIndex": 75,
+        "startTime": "2026-04-05T18:20:00.000Z",
+        "endTime": "2026-04-05T19:30:00.000Z",
+        "title": "OCSS SUIT DETAILED FLIGHT TEST OBJECTIVES",
+        "description": "MET 03/19:45",
+        "metLabel": "03/19:45",
+        "metSeconds": 330300
+      },
+      {
+        "id": "tv-77-1775417400000",
+        "rowIndex": 77,
+        "startTime": "2026-04-05T19:30:00.000Z",
+        "endTime": "2026-04-06T03:03:00.000Z",
+        "title": "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+        "description": "MET 03/20:55",
+        "metLabel": "03/20:55",
+        "metSeconds": 334500
+      },
+      {
+        "id": "tv-79-1775444580000",
+        "rowIndex": 79,
+        "startTime": "2026-04-06T03:03:00.000Z",
+        "endTime": "2026-04-06T04:41:00.000Z",
+        "title": "OTC-3 BURN",
+        "description": "MET 04/04:28",
+        "metLabel": "04/04:28",
+        "metSeconds": 361680
+      },
+      {
+        "id": "tv-81-1775450460000",
+        "rowIndex": 81,
+        "startTime": "2026-04-06T04:41:00.000Z",
+        "endTime": "2026-04-06T06:20:00.000Z",
+        "title": "INTEGRITY ENTERS THE LUNAR SPHERE OF INFLUENCE",
+        "description": "MET 04/06:06",
+        "metLabel": "04/06:06",
+        "metSeconds": 367560
+      },
+      {
+        "id": "tv-87-1775456400000",
+        "rowIndex": 87,
+        "startTime": "2026-04-06T06:20:00.000Z",
+        "endTime": "2026-04-06T07:00:00.000Z",
+        "title": "CREW SLEEP BEGINS",
+        "description": "MET 04/07:45",
+        "metLabel": "04/07:45",
+        "metSeconds": 373500
+      },
+      {
+        "id": "tv-89-1775458800000",
+        "rowIndex": 89,
+        "startTime": "2026-04-06T07:00:00.000Z",
+        "endTime": "2026-04-06T14:50:00.000Z",
+        "title": "FLIGHT DAY 5 HIGHLIGHTS (REPLAYS 3AM, 4AM, 5AM, 6AM, 7AM & 8M CT)",
+        "description": "MET 04/08:25",
+        "metLabel": "04/08:25",
+        "metSeconds": 375900
+      },
+      {
+        "id": "tv-91-1775487000000",
+        "rowIndex": 91,
+        "startTime": "2026-04-06T14:50:00.000Z",
+        "endTime": "2026-04-06T17:00:00.000Z",
+        "title": "CREW WAKEUP (BEGINS FLIGHT DAY 6)",
+        "description": "MET 04/16:15",
+        "metLabel": "04/16:15",
+        "metSeconds": 404100
+      },
+      {
+        "id": "tv-93-1775494800000",
+        "rowIndex": 93,
+        "startTime": "2026-04-06T17:00:00.000Z",
+        "endTime": "2026-04-06T17:56:00.000Z",
+        "title": "NASA+ COVERAGE BEGINS",
+        "description": "MET 04/18:25",
+        "metLabel": "04/18:25",
+        "metSeconds": 411900
+      },
+      {
+        "id": "tv-95-1775498160000",
+        "rowIndex": 95,
+        "startTime": "2026-04-06T17:56:00.000Z",
+        "endTime": "2026-04-06T18:10:00.000Z",
+        "title": "INTEGRITY PASSES THE APOLLO 13 DISTANCE RECORD",
+        "description": "MET 04/19:21",
+        "metLabel": "04/19:21",
+        "metSeconds": 415260
+      },
+      {
+        "id": "tv-97-1775499000000",
+        "rowIndex": 97,
+        "startTime": "2026-04-06T18:10:00.000Z",
+        "endTime": "2026-04-06T18:15:00.000Z",
+        "title": "CREW RECOGNIZES APOLLO 13 DISTANCE RECORD (AUDIO ONLY)",
+        "description": "MET 04/19:35",
+        "metLabel": "04/19:35",
+        "metSeconds": 416100
+      },
+      {
+        "id": "tv-99-1775499300000",
+        "rowIndex": 99,
+        "startTime": "2026-04-06T18:15:00.000Z",
+        "endTime": "2026-04-06T18:45:00.000Z",
+        "title": "CREW CONFIGURE INTEGRITY'S CABIN FOR FLYBY OPERATIONS",
+        "description": "MET 04/19:40",
+        "metLabel": "04/19:40",
+        "metSeconds": 416400
+      },
+      {
+        "id": "tv-101-1775501100000",
+        "rowIndex": 101,
+        "startTime": "2026-04-06T18:45:00.000Z",
+        "endTime": "2026-04-06T20:35:00.000Z",
+        "title": "LUNAR OBSERVATION PERIOD (FLYBY) BEGINS",
+        "description": "MET 04/20:10",
+        "metLabel": "04/20:10",
+        "metSeconds": 418200
+      },
+      {
+        "id": "tv-103-1775507700000",
+        "rowIndex": 103,
+        "startTime": "2026-04-06T20:35:00.000Z",
+        "endTime": "2026-04-06T22:47:00.000Z",
+        "title": "INTERIOR VIEWS OF THE CREW DURING LUNAR FLYBY",
+        "description": "MET 04/22:00",
+        "metLabel": "04/22:00",
+        "metSeconds": 424800
+      },
+      {
+        "id": "tv-105-1775515620000",
+        "rowIndex": 105,
+        "startTime": "2026-04-06T22:47:00.000Z",
+        "endTime": "2026-04-06T23:05:00.000Z",
+        "title": "PREDICTED LOSS OF COMMUNICATION AS CREW HEADS BEHIND THE MOON (ESTIMATIED TO LAST 40-MIN)",
+        "description": "MET 05/00:12",
+        "metLabel": "05/00:12",
+        "metSeconds": 432720
+      },
+      {
+        "id": "tv-107-1775516700000",
+        "rowIndex": 107,
+        "startTime": "2026-04-06T23:05:00.000Z",
+        "endTime": "2026-04-06T23:09:00.000Z",
+        "title": "INTEGRITY MAKES IT'S CLOSEST APPROACH TO THE MOON",
+        "description": "MET 05/00:30",
+        "metLabel": "05/00:30",
+        "metSeconds": 433800
+      },
+      {
+        "id": "tv-109-1775516940000",
+        "rowIndex": 109,
+        "startTime": "2026-04-06T23:09:00.000Z",
+        "endTime": "2026-04-06T23:27:00.000Z",
+        "title": "INTEGRITY REACHES ITS MAXIMUM DISTANCE FROM THE EARTH",
+        "description": "MET 05/00:34",
+        "metLabel": "05/00:34",
+        "metSeconds": 434040
+      },
+      {
+        "id": "tv-111-1775518020000",
+        "rowIndex": 111,
+        "startTime": "2026-04-06T23:27:00.000Z",
+        "endTime": "2026-04-07T01:40:00.000Z",
+        "title": "PREDICTED ACQUISITION OF SINGAL WITH INTEGRITY",
+        "description": "MET 05/00:52",
+        "metLabel": "05/00:52",
+        "metSeconds": 435120
+      },
+      {
+        "id": "tv-113-1775526000000",
+        "rowIndex": 113,
+        "startTime": "2026-04-07T01:40:00.000Z",
+        "endTime": "2026-04-07T02:00:00.000Z",
+        "title": "LUNAR OBSERVATION PERIOD (FLYBY) CONCLUDES",
+        "description": "MET 05/03:05",
+        "metLabel": "05/03:05",
+        "metSeconds": 443100
+      },
+      {
+        "id": "tv-115-1775527200000",
+        "rowIndex": 115,
+        "startTime": "2026-04-07T02:00:00.000Z",
+        "endTime": "2026-04-07T02:50:00.000Z",
+        "title": "NASA+ COVERAGE CONCLUDES",
+        "description": "MET 05/03:25",
+        "metLabel": "05/03:25",
+        "metSeconds": 444300
+      },
+      {
+        "id": "tv-117-1775530200000",
+        "rowIndex": 117,
+        "startTime": "2026-04-07T02:50:00.000Z",
+        "endTime": "2026-04-07T06:05:00.000Z",
+        "title": "NASA PAO EVENT",
+        "description": "MET 05/04:15",
+        "metLabel": "05/04:15",
+        "metSeconds": 447300
+      },
+      {
+        "id": "tv-122-1775541900000",
+        "rowIndex": 122,
+        "startTime": "2026-04-07T06:05:00.000Z",
+        "endTime": "2026-04-07T07:00:00.000Z",
+        "title": "CREW SLEEP BEGINS",
+        "description": "MET 05/07:30",
+        "metLabel": "05/07:30",
+        "metSeconds": 459000
+      },
+      {
+        "id": "tv-124-1775545200000",
+        "rowIndex": 124,
+        "startTime": "2026-04-07T07:00:00.000Z",
+        "endTime": "2026-04-07T15:35:00.000Z",
+        "title": "FLIGHT DAY 6 HIGHLIGHTS (REPLAYS 3AM, 4AM, 5AM, 6PM, 7AM, 8AM & 9AM CT)",
+        "description": "MET 05/08:25",
+        "metLabel": "05/08:25",
+        "metSeconds": 462300
+      },
+      {
+        "id": "tv-126-1775576100000",
+        "rowIndex": 126,
+        "startTime": "2026-04-07T15:35:00.000Z",
+        "endTime": "2026-04-07T17:28:00.000Z",
+        "title": "CREW WAKEUP (BEGINS FLIGHT DAY 7)",
+        "description": "MET 05/17:00",
+        "metLabel": "05/17:00",
+        "metSeconds": 493200
+      },
+      {
+        "id": "tv-128-1775582880000",
+        "rowIndex": 128,
+        "startTime": "2026-04-07T17:28:00.000Z",
+        "endTime": "2026-04-07T18:40:00.000Z",
+        "title": "INTEGRITY LEAVES THE LUNAR SPHERE OF INFLUENCE EN ROUTE BACK TO EARTH",
+        "description": "MET 05/18:53",
+        "metLabel": "05/18:53",
+        "metSeconds": 499980
+      },
+      {
+        "id": "tv-130-1775587200000",
+        "rowIndex": 130,
+        "startTime": "2026-04-07T18:40:00.000Z",
+        "endTime": "2026-04-07T19:00:00.000Z",
+        "title": "NASA PAO EVENT - INTEGRITY TO ISS SHIP-TO-SHIP CALL (AUDIO ONLY)",
+        "description": "MET 05/20:05",
+        "metLabel": "05/20:05",
+        "metSeconds": 504300
+      },
+      {
+        "id": "tv-132-1775588400000",
+        "rowIndex": 132,
+        "startTime": "2026-04-07T19:00:00.000Z",
+        "endTime": "2026-04-07T19:30:00.000Z",
+        "title": "POST-FLYBY CREW DEBRIEF WITH SCIENCE OFFICIALS",
+        "description": "MET 05/20:25",
+        "metLabel": "05/20:25",
+        "metSeconds": 505500
+      },
+      {
+        "id": "tv-134-1775590200000",
+        "rowIndex": 134,
+        "startTime": "2026-04-07T19:30:00.000Z",
+        "endTime": "2026-04-07T20:00:00.000Z",
+        "title": "CREW BEGINS ITS OFF-DUTY PERIOD",
+        "description": "MET 05/20:55",
+        "metLabel": "05/20:55",
+        "metSeconds": 507300
+      },
+      {
+        "id": "tv-136-1775592000000",
+        "rowIndex": 136,
+        "startTime": "2026-04-07T20:00:00.000Z",
+        "endTime": "2026-04-08T01:03:00.000Z",
+        "title": "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+        "description": "MET 05/21:25",
+        "metLabel": "05/21:25",
+        "metSeconds": 509100
+      },
+      {
+        "id": "tv-138-1775610180000",
+        "rowIndex": 138,
+        "startTime": "2026-04-08T01:03:00.000Z",
+        "endTime": "2026-04-08T07:05:00.000Z",
+        "title": "RTC-1 BURN",
+        "description": "MET 06/02:28",
+        "metLabel": "06/02:28",
+        "metSeconds": 527280
+      },
+      {
+        "id": "tv-143-1775631900000",
+        "rowIndex": 143,
+        "startTime": "2026-04-08T07:05:00.000Z",
+        "endTime": "2026-04-08T08:00:00.000Z",
+        "title": "CREW SLEEP BEGINS",
+        "description": "MET 06/08:30",
+        "metLabel": "06/08:30",
+        "metSeconds": 549000
+      },
+      {
+        "id": "tv-145-1775635200000",
+        "rowIndex": 145,
+        "startTime": "2026-04-08T08:00:00.000Z",
+        "endTime": "2026-04-08T15:35:00.000Z",
+        "title": "FLIGHT DAY 7 HIGHLIGHTS (REPLAYS 4AM, 5AM, 6PM, 7AM, 8AM & 9AM CT)",
+        "description": "MET 06/09:25",
+        "metLabel": "06/09:25",
+        "metSeconds": 552300
+      },
+      {
+        "id": "tv-147-1775662500000",
+        "rowIndex": 147,
+        "startTime": "2026-04-08T15:35:00.000Z",
+        "endTime": "2026-04-08T19:30:00.000Z",
+        "title": "CREW WAKEUP (BEGINS FLIGHT DAY 8)",
+        "description": "MET 06/17:00",
+        "metLabel": "06/17:00",
+        "metSeconds": 579600
+      },
+      {
+        "id": "tv-149-1775676600000",
+        "rowIndex": 149,
+        "startTime": "2026-04-08T19:30:00.000Z",
+        "endTime": "2026-04-08T23:20:00.000Z",
+        "title": "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+        "description": "MET 06/20:55",
+        "metLabel": "06/20:55",
+        "metSeconds": 593700
+      },
+      {
+        "id": "tv-151-1775690400000",
+        "rowIndex": 151,
+        "startTime": "2026-04-08T23:20:00.000Z",
+        "endTime": "2026-04-09T00:15:00.000Z",
+        "title": "CSA PAO EVENT",
+        "description": "MET 07/00:45",
+        "metLabel": "07/00:45",
+        "metSeconds": 607500
+      },
+      {
+        "id": "tv-153-1775693700000",
+        "rowIndex": 153,
+        "startTime": "2026-04-09T00:15:00.000Z",
+        "endTime": "2026-04-09T02:55:00.000Z",
+        "title": "RADIATION SHIELDING DEPLOYMENT DEMONSTRATION",
+        "description": "MET 07/01:40",
+        "metLabel": "07/01:40",
+        "metSeconds": 610800
+      },
+      {
+        "id": "tv-155-1775703300000",
+        "rowIndex": 155,
+        "startTime": "2026-04-09T02:55:00.000Z",
+        "endTime": "2026-04-09T07:00:00.000Z",
+        "title": "MANUAL PILOTING DETAILED FLIGHT TEST OBJECTIVE",
+        "description": "MET 07/04:20",
+        "metLabel": "07/04:20",
+        "metSeconds": 620400
+      },
+      {
+        "id": "tv-160-1775718000000",
+        "rowIndex": 160,
+        "startTime": "2026-04-09T07:00:00.000Z",
+        "endTime": "2026-04-09T08:00:00.000Z",
+        "title": "CREW SLEEP BEGINS",
+        "description": "MET 07/08:25",
+        "metLabel": "07/08:25",
+        "metSeconds": 635100
+      },
+      {
+        "id": "tv-162-1775721600000",
+        "rowIndex": 162,
+        "startTime": "2026-04-09T08:00:00.000Z",
+        "endTime": "2026-04-09T15:35:00.000Z",
+        "title": "FLIGHT DAY 8 HIGHLIGHTS (REPLAYS 4AM, 5AM, 6PM, 7AM, 8AM & 9AM CT)",
+        "description": "MET 07/09:25",
+        "metLabel": "07/09:25",
+        "metSeconds": 638700
+      },
+      {
+        "id": "tv-164-1775748900000",
+        "rowIndex": 164,
+        "startTime": "2026-04-09T15:35:00.000Z",
+        "endTime": "2026-04-09T19:30:00.000Z",
+        "title": "CREW WAKEUP (BEGINS FLIGHT DAY 9)",
+        "description": "MET 07/17:00",
+        "metLabel": "07/17:00",
+        "metSeconds": 666000
+      },
+      {
+        "id": "tv-166-1775763000000",
+        "rowIndex": 166,
+        "startTime": "2026-04-09T19:30:00.000Z",
+        "endTime": "2026-04-09T22:10:00.000Z",
+        "title": "MISSION STATUS BRIEFING (TIME SUBJECT TO CHANGE)",
+        "description": "MET 07/20:55",
+        "metLabel": "07/20:55",
+        "metSeconds": 680100
+      },
+      {
+        "id": "tv-168-1775772600000",
+        "rowIndex": 168,
+        "startTime": "2026-04-09T22:10:00.000Z",
+        "endTime": "2026-04-10T00:05:00.000Z",
+        "title": "PAO EVENT – CREW NEWS CONFERENCE (20 mins.)",
+        "description": "MET 07/23:35",
+        "metLabel": "07/23:35",
+        "metSeconds": 689700
+      },
+      {
+        "id": "tv-170-1775779500000",
+        "rowIndex": 170,
+        "startTime": "2026-04-10T00:05:00.000Z",
+        "endTime": "2026-04-10T02:53:00.000Z",
+        "title": "NASA PAO EVENT",
+        "description": "MET 08/01:30",
+        "metLabel": "08/01:30",
+        "metSeconds": 696600
+      },
+      {
+        "id": "tv-172-1775789580000",
+        "rowIndex": 172,
+        "startTime": "2026-04-10T02:53:00.000Z",
+        "endTime": "2026-04-10T07:00:00.000Z",
+        "title": "RTC-2 BURN",
+        "description": "MET 08/04:18",
+        "metLabel": "08/04:18",
+        "metSeconds": 706680
+      },
+      {
+        "id": "tv-177-1775804400000",
+        "rowIndex": 177,
+        "startTime": "2026-04-10T07:00:00.000Z",
+        "endTime": "2026-04-10T08:00:00.000Z",
+        "title": "CREW SLEEP BEGINS",
+        "description": "MET 08/08:25",
+        "metLabel": "08/08:25",
+        "metSeconds": 721500
+      },
+      {
+        "id": "tv-179-1775808000000",
+        "rowIndex": 179,
+        "startTime": "2026-04-10T08:00:00.000Z",
+        "endTime": "2026-04-10T15:35:00.000Z",
+        "title": "FLIGHT DAY 9 HIGHLIGHTS (REPLAYS 4AM, 5AM, 6PM, 7AM, 8AM & 9AM CT)",
+        "description": "MET 08/09:25",
+        "metLabel": "08/09:25",
+        "metSeconds": 725100
+      },
+      {
+        "id": "tv-181-1775835300000",
+        "rowIndex": 181,
+        "startTime": "2026-04-10T15:35:00.000Z",
+        "endTime": "2026-04-10T17:50:00.000Z",
+        "title": "CREW WAKEUP (BEGINS FLIGHT DAY 10)",
+        "description": "MET 08/17:00",
+        "metLabel": "08/17:00",
+        "metSeconds": 752400
+      },
+      {
+        "id": "tv-183-1775843400000",
+        "rowIndex": 183,
+        "startTime": "2026-04-10T17:50:00.000Z",
+        "endTime": "2026-04-10T18:53:00.000Z",
+        "title": "CABIN CONFIGURATION FOR ENTRY BEGINS",
+        "description": "MET 08/19:15",
+        "metLabel": "08/19:15",
+        "metSeconds": 760500
+      },
+      {
+        "id": "tv-185-1775847180000",
+        "rowIndex": 185,
+        "startTime": "2026-04-10T18:53:00.000Z",
+        "endTime": "2026-04-10T19:20:00.000Z",
+        "title": "RTC-3 BURN",
+        "description": "MET 08/20:18",
+        "metLabel": "08/20:18",
+        "metSeconds": 764280
+      },
+      {
+        "id": "tv-187-1775848800000",
+        "rowIndex": 187,
+        "startTime": "2026-04-10T19:20:00.000Z",
+        "endTime": "2026-04-10T21:05:00.000Z",
+        "title": "CREW CONTINUES TO CONFIGURE INTEGRITY'S CABIN FOR ENTRY",
+        "description": "MET 08/20:45",
+        "metLabel": "08/20:45",
+        "metSeconds": 765900
+      },
+      {
+        "id": "tv-189-1775855100000",
+        "rowIndex": 189,
+        "startTime": "2026-04-10T21:05:00.000Z",
+        "endTime": "2026-04-10T22:45:00.000Z",
+        "title": "CREW MOVES INTO ITS ENTRY CHECKLIST",
+        "description": "MET 08/22:30",
+        "metLabel": "08/22:30",
+        "metSeconds": 772200
+      },
+      {
+        "id": "tv-191-1775861100000",
+        "rowIndex": 191,
+        "startTime": "2026-04-10T22:45:00.000Z",
+        "endTime": "2026-04-10T23:44:00.000Z",
+        "title": "NASA+ COVERAGE BEGINS",
+        "description": "MET 09/00:10",
+        "metLabel": "09/00:10",
+        "metSeconds": 778200
+      },
+      {
+        "id": "tv-193-1775864640000",
+        "rowIndex": 193,
+        "startTime": "2026-04-10T23:44:00.000Z",
+        "endTime": "2026-04-10T23:47:00.000Z",
+        "title": "CREW MODULE/SERVICE MODULE SEPARATION",
+        "description": "MET 09/01:09",
+        "metLabel": "09/01:09",
+        "metSeconds": 781740
+      },
+      {
+        "id": "tv-195-1775864820000",
+        "rowIndex": 195,
+        "startTime": "2026-04-10T23:47:00.000Z",
+        "endTime": "2026-04-10T23:53:00.000Z",
+        "title": "CREW MODULE RAISE BURN",
+        "description": "MET 09/01:12",
+        "metLabel": "09/01:12",
+        "metSeconds": 781920
+      },
+      {
+        "id": "tv-197-1775865180000",
+        "rowIndex": 197,
+        "startTime": "2026-04-10T23:53:00.000Z",
+        "endTime": "2026-04-11T00:06:00.000Z",
+        "title": "ENTRY INTERFACE",
+        "description": "MET 09/01:18",
+        "metLabel": "09/01:18",
+        "metSeconds": 782280
+      },
+      {
+        "id": "tv-199-1775865960000",
+        "rowIndex": 199,
+        "startTime": "2026-04-11T00:06:00.000Z",
+        "endTime": "2026-04-11T00:21:00.000Z",
+        "title": "SPLASHDOWN",
+        "description": "MET 09/01:31",
+        "metLabel": "09/01:31",
+        "metSeconds": 783060
+      },
+      {
+        "id": "tv-201-1775866860000",
+        "rowIndex": 201,
+        "startTime": "2026-04-11T00:21:00.000Z",
+        "endTime": "2026-04-11T01:05:00.000Z",
+        "title": "INTEGRITY POWERDOWN (TIMING IS VARIABLE)",
+        "description": "MET 09/01:46",
+        "metLabel": "09/01:46",
+        "metSeconds": 783960
+      },
+      {
+        "id": "tv-203-1775869500000",
+        "rowIndex": 203,
+        "startTime": "2026-04-11T01:05:00.000Z",
+        "endTime": "2026-04-11T01:35:00.000Z",
+        "title": "TARGETED TIME FOR EXTRACTION OF THE CREW (TIME SUBJECT TO CHANGE)",
+        "description": "MET 09/02:30",
+        "metLabel": "09/02:30",
+        "metSeconds": 786600
+      },
+      {
+        "id": "tv-205-1775871300000",
+        "rowIndex": 205,
+        "startTime": "2026-04-11T01:35:00.000Z",
+        "endTime": "2026-04-11T02:30:00.000Z",
+        "title": "CREW ARRIVES ON RECOVERY SHIP (NASA+ COVERAGE CONCLUDES)",
+        "description": "MET 09/03:00",
+        "metLabel": "09/03:00",
+        "metSeconds": 788400
+      },
+      {
+        "id": "tv-207-1775874600000",
+        "rowIndex": 207,
+        "startTime": "2026-04-11T02:30:00.000Z",
+        "endTime": null,
+        "title": "POST-SPLASHDOWN NEWS CONFERENCE (JSC) (TIME SUBJECT TO CHANGE)",
+        "description": "MET 09/03:55",
+        "metLabel": "09/03:55",
+        "metSeconds": 791700
+      }
+    ]
+  }
+}
