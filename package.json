@@ -10,6 +10,7 @@
     "export:tv-schedule": "node scripts/export-tv-schedule.mjs"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "next": "^16.2.2",
     "react": "19.0.0",
     "react-dom": "19.0.0",
