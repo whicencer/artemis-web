@@ -358,11 +358,12 @@ h2 {
 
 .trajectory-canvas {
   position: relative;
-  min-height: 208px;
+  min-height: 280px;
   border: 1px solid rgba(57, 86, 131, 0.6);
   border-radius: 10px;
   background:
-    radial-gradient(600px 220px at 50% 120%, rgba(46, 95, 165, 0.38), transparent 65%),
+    radial-gradient(560px 190px at 52% 80%, rgba(43, 86, 148, 0.26), transparent 66%),
+    radial-gradient(320px 120px at 58% 42%, rgba(52, 103, 167, 0.12), transparent 70%),
     #060d18;
   overflow: hidden;
 }
@@ -373,104 +374,96 @@ h2 {
   inset: 0;
   pointer-events: none;
   background:
-    radial-gradient(350px 120px at 50% 50%, rgba(66, 152, 255, 0.12), transparent 72%),
-    linear-gradient(180deg, rgba(132, 174, 240, 0.04), transparent 44%);
+    radial-gradient(340px 120px at 52% 48%, rgba(66, 152, 255, 0.1), transparent 74%),
+    linear-gradient(180deg, rgba(132, 174, 240, 0.03), transparent 44%);
 }
 
-.trajectory-path {
+.trajectory-canvas::after {
+  content: "";
   position: absolute;
-  left: 10%;
-  right: 10%;
-  top: 50%;
-  transform: translateY(-50%);
-  border-top: 2px dashed rgba(138, 174, 245, 0.2);
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 18% 22%, rgba(210, 228, 255, 0.34) 0.7px, transparent 1px),
+    radial-gradient(circle at 34% 77%, rgba(201, 222, 255, 0.24) 0.7px, transparent 1px),
+    radial-gradient(circle at 65% 28%, rgba(188, 217, 255, 0.22) 0.8px, transparent 1px),
+    radial-gradient(circle at 82% 61%, rgba(204, 225, 255, 0.26) 0.8px, transparent 1px);
+  opacity: 0.22;
 }
 
-.trajectory-segment {
+.trajectory-svg {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  border-top: 2px solid;
-  transition: width 0.85s ease, left 0.85s ease;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
 }
 
-.trajectory-segment.left {
-  left: 10%;
-  border-color: rgba(69, 182, 255, 0.9);
-  box-shadow: 0 0 12px rgba(69, 182, 255, 0.45);
+.trajectory-svg .plot-grid line {
+  stroke: rgba(122, 160, 225, 0.08);
+  stroke-width: 0.35;
 }
 
-.trajectory-segment.right {
-  right: 10%;
-  border-color: transparent;
-  border-top-style: dashed;
-  border-top-color: rgba(210, 235, 255, 0.5);
+.trajectory-canvas-el {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.trajectory-svg path {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.trajectory-svg .curve-completed {
+  stroke: url(#trajectoryGradient);
+  stroke-width: 1.05;
+  filter: drop-shadow(0 0 2px rgba(86, 196, 255, 0.3));
+}
+
+.trajectory-svg .curve-future {
+  stroke: rgba(200, 226, 255, 0.42);
+  stroke-width: 0.86;
+  stroke-dasharray: 1.7 1.5;
+}
+
+.trajectory-svg .curve-flow circle {
+  fill: rgba(162, 218, 255, 0.68);
+  filter: drop-shadow(0 0 2px rgba(119, 203, 255, 0.35));
+}
+
+.trajectory-svg .orion-vector {
+  stroke: rgba(126, 230, 255, 0.7);
+  stroke-width: 0.65;
+  stroke-linecap: round;
 }
 
 .trajectory-aura {
   position: absolute;
   top: 50%;
-  width: 170px;
-  height: 74px;
+  width: 130px;
+  height: 56px;
   transform: translate(-50%, -50%);
   pointer-events: none;
-  background: radial-gradient(closest-side, rgba(66, 242, 164, 0.22), rgba(69, 182, 255, 0.1), transparent 72%);
-  filter: blur(0.5px);
-  transition: left 0.85s cubic-bezier(0.22, 0.61, 0.36, 1);
-}
-
-.trajectory-particles {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-}
-
-.trajectory-particle {
-  position: absolute;
-  top: calc(50% - 2px);
-  left: 10%;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: rgba(152, 209, 255, 0.68);
-  box-shadow: 0 0 8px rgba(95, 183, 255, 0.56);
-  animation: trajectoryParticle linear infinite;
-  opacity: 0;
-}
-
-.trajectory-particle.p1 {
-  animation-duration: 6s;
-  animation-delay: -4.8s;
-}
-
-.trajectory-particle.p2 {
-  animation-duration: 7.3s;
-  animation-delay: -1.7s;
-}
-
-.trajectory-particle.p3 {
-  animation-duration: 5.6s;
-  animation-delay: -3.2s;
-}
-
-.trajectory-particle.p4 {
-  animation-duration: 8.1s;
-  animation-delay: -6.4s;
-}
-
-.trajectory-particle.p5 {
-  animation-duration: 6.8s;
-  animation-delay: -0.9s;
+  background: radial-gradient(closest-side, rgba(66, 242, 164, 0.16), rgba(69, 182, 255, 0.07), transparent 74%);
+  filter: blur(0.7px);
+  transition: left 0.85s cubic-bezier(0.22, 0.61, 0.36, 1), top 0.85s cubic-bezier(0.22, 0.61, 0.36, 1);
+  z-index: 2;
 }
 
 .body-node {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   border-radius: 999px;
-  transition: left 0.85s cubic-bezier(0.22, 0.61, 0.36, 1);
+  transition: left 0.85s cubic-bezier(0.22, 0.61, 0.36, 1), top 0.85s cubic-bezier(0.22, 0.61, 0.36, 1);
+  z-index: 3;
 }
 
 .body-node::before {
@@ -483,91 +476,67 @@ h2 {
 
 .body-node span {
   position: absolute;
-  top: 24px;
+  top: 20px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 0.61rem;
+  font-size: 0.56rem;
   font-family: var(--font-mono);
   color: #d7e6ff;
   white-space: nowrap;
 }
 
 .body-node.earth {
-  background: #57beff;
-  box-shadow: 0 0 16px rgba(69, 182, 255, 0.86), 0 0 26px rgba(69, 182, 255, 0.3);
+  width: 17px;
+  height: 17px;
+  background: radial-gradient(circle at 30% 28%, #8fe0ff, #3b96e0 62%, #1f5fa7 100%);
+  box-shadow: 0 0 12px rgba(69, 182, 255, 0.52), 0 0 26px rgba(70, 158, 255, 0.22);
 }
 
 .body-node.moon {
-  background: #dbe7ff;
-  box-shadow: 0 0 16px rgba(219, 231, 255, 0.78), 0 0 26px rgba(186, 208, 255, 0.24);
+  width: 14px;
+  height: 14px;
+  background: radial-gradient(circle at 38% 35%, #f2f4fa, #c7cedd 68%, #9aa2b5 100%);
+  box-shadow: 0 0 8px rgba(223, 230, 247, 0.35), 0 0 16px rgba(159, 177, 206, 0.18);
 }
 
 .body-node.orion {
-  background: #58ffa7;
-  box-shadow: 0 0 14px rgba(88, 255, 167, 0.88), 0 0 24px rgba(49, 222, 149, 0.38);
-  animation: orionPulse 3.2s ease-in-out infinite;
+  width: 8px;
+  height: 8px;
+  background: #67ffb7;
+  box-shadow: 0 0 9px rgba(88, 255, 167, 0.62), 0 0 16px rgba(49, 222, 149, 0.22);
+  animation: orionPulse 3.4s ease-in-out infinite;
 }
 
-.trajectory-readout {
+.trajectory-closest {
   position: absolute;
-  bottom: 0.6rem;
-  padding: 0.22rem 0.42rem;
-  border: 1px solid rgba(69, 117, 190, 0.55);
-  border-radius: 6px;
-  font-size: 0.62rem;
-  font-family: var(--font-mono);
-  color: #d5e5ff;
-  background: rgba(8, 16, 28, 0.72);
-}
-
-.trajectory-percent {
-  position: absolute;
-  top: calc(50% - 18px);
-  transform: translateX(-50%);
-  padding: 0.12rem 0.35rem;
-  border-radius: 999px;
-  font-size: 0.56rem;
+  transform: translate(-50%, -150%);
+  font-size: 0.53rem;
   font-family: var(--font-mono);
   letter-spacing: 0.03em;
-  border: 1px solid rgba(73, 116, 187, 0.55);
-  background: rgba(8, 16, 28, 0.8);
-  color: #d8e8ff;
+  color: #d5e8ff;
+  border: 1px solid rgba(122, 162, 222, 0.55);
+  border-radius: 999px;
+  background: rgba(8, 16, 29, 0.78);
+  padding: 0.1rem 0.32rem;
   pointer-events: none;
   white-space: nowrap;
+  z-index: 4;
 }
-
-.trajectory-percent.left {
-  border-color: rgba(69, 182, 255, 0.66);
-  box-shadow: 0 0 10px rgba(69, 182, 255, 0.26);
-}
-
-.trajectory-percent.right {
-  border-color: rgba(184, 214, 255, 0.5);
-}
-
-.trajectory-readout.left {
-  left: 0.5rem;
-}
-
-.trajectory-readout.right {
-  right: 0.5rem;
-}
-
-.trajectory-grid {
-  margin-top: 0.5rem;
+.trajectory-hud-main {
+  margin-top: 0.46rem;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.35rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.34rem;
 }
 
-.t-cell {
+.hud-card {
   border: 1px solid rgba(59, 86, 130, 0.5);
-  background: rgba(11, 22, 36, 0.7);
+  background: rgba(11, 22, 36, 0.62);
   border-radius: 8px;
   padding: 0.32rem 0.38rem;
 }
 
-.t-cell p {
+.hud-card p {
   margin: 0;
   font-size: 0.59rem;
   color: #8fa5cf;
@@ -575,10 +544,47 @@ h2 {
   text-transform: uppercase;
 }
 
-.t-cell strong {
+.hud-card strong {
   display: block;
   margin-top: 0.2rem;
   font-size: 0.72rem;
+  font-family: var(--font-mono);
+}
+
+.hud-card.is-center {
+  border-color: rgba(88, 135, 210, 0.68);
+  background: rgba(12, 25, 42, 0.74);
+  box-shadow: 0 0 10px rgba(73, 135, 227, 0.15);
+  text-align: center;
+}
+
+.trajectory-hud-secondary {
+  margin-top: 0.34rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.3rem;
+}
+
+.hud-mini {
+  border: 1px solid rgba(57, 82, 123, 0.45);
+  background: rgba(10, 19, 33, 0.58);
+  border-radius: 7px;
+  padding: 0.24rem 0.34rem;
+}
+
+.hud-mini span {
+  display: block;
+  font-size: 0.54rem;
+  font-family: var(--font-mono);
+  color: #8ea8d6;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hud-mini strong {
+  display: block;
+  margin-top: 0.14rem;
+  font-size: 0.62rem;
   font-family: var(--font-mono);
 }
 
@@ -596,23 +602,6 @@ h2 {
   color: #7f97c3;
   font-size: 0.61rem;
   line-height: 1.35;
-}
-
-@keyframes trajectoryParticle {
-  0% {
-    left: 10%;
-    opacity: 0;
-  }
-  8% {
-    opacity: 0.82;
-  }
-  92% {
-    opacity: 0.82;
-  }
-  100% {
-    left: 90%;
-    opacity: 0;
-  }
 }
 
 @keyframes orionPulse {
@@ -1225,7 +1214,7 @@ h2 {
     grid-template-columns: 320px minmax(0, 1fr) 470px;
   }
 
-  .trajectory-grid {
+  .trajectory-hud-secondary {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -1282,10 +1271,11 @@ h2 {
   }
 
   .trajectory-canvas {
-    min-height: 230px;
+    min-height: 300px;
   }
 
-  .trajectory-grid {
+  .trajectory-hud-main,
+  .trajectory-hud-secondary {
     grid-template-columns: 1fr;
   }
 

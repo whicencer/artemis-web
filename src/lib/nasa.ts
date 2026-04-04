@@ -862,10 +862,67 @@ function parseHorizonsVectors(resultText: string): HorizonsPoint[] {
   return points;
 }
 
-async function fetchHorizonsMoonVectors() {
-  const start = new Date();
-  start.setUTCMinutes(0, 0, 0);
-  const stop = new Date(start.getTime() + 2 * 60 * 60 * 1000);
+async function fetchHorizonsOrionTrackPoints() {
+  const center = new Date();
+  center.setUTCMinutes(0, 0, 0);
+  const start = new Date(center.getTime() - 24 * 60 * 60 * 1000);
+  const stop = new Date(center.getTime() + 48 * 60 * 60 * 1000);
+
+  const params = new URLSearchParams({
+    format: "json",
+    COMMAND: "'-1024'",
+    EPHEM_TYPE: "'VECTORS'",
+    CENTER: "'500@399'",
+    START_TIME: `'${start.toISOString().slice(0, 16).replace("T", " ")}'`,
+    STOP_TIME: `'${stop.toISOString().slice(0, 16).replace("T", " ")}'`,
+    STEP_SIZE: "'20 m'"
+  });
+
+  const url = `${SOURCE_URLS.horizons}?${params.toString()}`;
+  const probe = await fetchProbe(url);
+
+  if (!probe.ok) {
+    return {
+      status: "error" as SourceStatus,
+      source: url,
+      detail: "Orion trajectory vectors unavailable.",
+      points: [] as HorizonsPoint[]
+    };
+  }
+
+  try {
+    const payload = JSON.parse(probe.text) as { result?: string; error?: string };
+    if (payload.error) {
+      return {
+        status: "error" as SourceStatus,
+        source: url,
+        detail: "Orion trajectory vectors unavailable.",
+        points: [] as HorizonsPoint[]
+      };
+    }
+
+    const points = parseHorizonsVectors(payload.result ?? "");
+    return {
+      status: points.length ? ("live" as SourceStatus) : ("fallback" as SourceStatus),
+      source: url,
+      detail: points.length ? `Loaded ${points.length} Orion trajectory vectors.` : "Orion trajectory vectors unavailable.",
+      points
+    };
+  } catch {
+    return {
+      status: "error" as SourceStatus,
+      source: url,
+      detail: "Orion trajectory vectors unavailable.",
+      points: [] as HorizonsPoint[]
+    };
+  }
+}
+
+async function fetchHorizonsMoonTrackPoints() {
+  const center = new Date();
+  center.setUTCMinutes(0, 0, 0);
+  const start = new Date(center.getTime() - 24 * 60 * 60 * 1000);
+  const stop = new Date(center.getTime() + 48 * 60 * 60 * 1000);
 
   const params = new URLSearchParams({
     format: "json",
@@ -884,7 +941,7 @@ async function fetchHorizonsMoonVectors() {
     return {
       status: "error" as SourceStatus,
       source: url,
-      detail: "Reference vectors unavailable.",
+      detail: "Moon trajectory vectors unavailable.",
       points: [] as HorizonsPoint[]
     };
   }
@@ -895,24 +952,23 @@ async function fetchHorizonsMoonVectors() {
       return {
         status: "error" as SourceStatus,
         source: url,
-        detail: "Reference vectors unavailable.",
+        detail: "Moon trajectory vectors unavailable.",
         points: [] as HorizonsPoint[]
       };
     }
 
     const points = parseHorizonsVectors(payload.result ?? "");
-
     return {
       status: points.length ? ("live" as SourceStatus) : ("fallback" as SourceStatus),
       source: url,
-      detail: points.length ? `Loaded ${points.length} reference vectors.` : "Reference vectors unavailable.",
+      detail: points.length ? `Loaded ${points.length} Moon trajectory vectors.` : "Moon trajectory vectors unavailable.",
       points
     };
   } catch {
     return {
       status: "error" as SourceStatus,
       source: url,
-      detail: "Reference vectors unavailable.",
+      detail: "Moon trajectory vectors unavailable.",
       points: [] as HorizonsPoint[]
     };
   }
@@ -1237,6 +1293,7 @@ export async function getTelemetrySnapshot(): Promise<TelemetrySnapshot> {
       artemisLiveNote: telemetry.trackingNote,
       artemisTrackerUrl: SOURCE_URLS.artemisArow,
       points: [],
+      moonPoints: [],
       pointsStatus: "fallback",
       pointsSource: "JPL Horizons Moon vectors"
     }
@@ -1247,12 +1304,13 @@ export async function getDashboardSnapshot(): Promise<DashboardSnapshot> {
   const fetchedAt = new Date().toISOString();
   const tvBroadcast = getTvBroadcastSchedule();
 
-  const [feedProbe, missionProbe, wpProbe, dsnContext, horizons, telemetryFast] = await Promise.all([
+  const [feedProbe, missionProbe, wpProbe, dsnContext, moonTrack, orionTrack, telemetryFast] = await Promise.all([
     fetchProbe(SOURCE_URLS.missionBlogFeed),
     fetchProbe(SOURCE_URLS.artemisMission),
     fetchProbe(SOURCE_URLS.artemisWpPosts),
     fetchDsnNowContext(),
-    fetchHorizonsMoonVectors(),
+    fetchHorizonsMoonTrackPoints(),
+    fetchHorizonsOrionTrackPoints(),
     fetchArowTelemetry(fetchedAt, REFRESH_SECONDS)
   ]);
 
@@ -1268,8 +1326,8 @@ export async function getDashboardSnapshot(): Promise<DashboardSnapshot> {
     launchIso,
     phase,
     updateTelemetry: updatesTelemetryFallback,
-    moonReferenceKm: resolveMoonReferenceKm(horizons.points),
-    moonVector: resolveMoonVector(horizons.points, fetchedAt),
+    moonReferenceKm: resolveMoonReferenceKm(moonTrack.points),
+    moonVector: resolveMoonVector(moonTrack.points, fetchedAt),
     updatedAt: fetchedAt
   };
   lastTelemetryContextCache.value = telemetryContext;
@@ -1305,9 +1363,10 @@ export async function getDashboardSnapshot(): Promise<DashboardSnapshot> {
       artemisLiveAvailable: telemetry.hasTelemetryValues,
       artemisLiveNote: telemetry.trackingNote,
       artemisTrackerUrl: SOURCE_URLS.artemisArow,
-      points: horizons.points,
-      pointsStatus: horizons.status,
-      pointsSource: horizons.source
+      points: orionTrack.points,
+      moonPoints: moonTrack.points,
+      pointsStatus: orionTrack.status === "live" || moonTrack.status === "live" ? "live" : orionTrack.status,
+      pointsSource: `Orion: ${orionTrack.source} | Moon: ${moonTrack.source}`
     },
     streams: {
       officialBroadcast: SOURCE_URLS.broadcast,

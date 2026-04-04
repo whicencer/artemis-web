@@ -94,6 +94,7 @@ export type DashboardSnapshot = {
     artemisLiveNote: string;
     artemisTrackerUrl: string;
     points: HorizonsPoint[];
+    moonPoints: HorizonsPoint[];
     pointsStatus: SourceStatus;
     pointsSource: string;
   };

@@ -1,10 +1,10 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useEffect, useMemo, useState } from "react";
 import { AgeTicker } from "@/components/AgeTicker";
 import { ElapsedTicker } from "@/components/ElapsedTicker";
 import { LiveFeedCard } from "@/components/LiveFeedCard";
-import { TrajectoryPanel } from "@/components/TrajectoryPanel";
 import { TvBroadcastConsole } from "@/components/TvBroadcastConsole";
 import { DashboardSnapshot, MissionUpdate, SourceStatus } from "@/lib/types";
 
@@ -46,6 +46,22 @@ type PublicTvSchedulePayload = {
     events?: unknown;
   };
 };
+
+const TrajectoryPanel = dynamic(
+  () => import("@/components/TrajectoryPanel").then((mod) => mod.TrajectoryPanel),
+  {
+    ssr: false,
+    loading: () => (
+      <section className="panel trajectory-panel">
+        <div className="panel-head">
+          <h2>Trajectory Track</h2>
+          <span className="status-tag neutral">SYNCING</span>
+        </div>
+        <div className="trajectory-canvas" />
+      </section>
+    )
+  }
+);
 
 const MONTHS_SHORT = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
@@ -243,6 +259,7 @@ function safeSnapshot(input: DashboardSnapshot): SafeSnapshot {
       artemisLiveNote: input.tracking?.artemisLiveNote || "Telemetry stream unavailable.",
       artemisTrackerUrl: input.tracking?.artemisTrackerUrl || "https://www.nasa.gov/missions/artemis-ii/arow/",
       points: Array.isArray(input.tracking?.points) ? input.tracking.points : [],
+      moonPoints: Array.isArray(input.tracking?.moonPoints) ? input.tracking.moonPoints : [],
       pointsStatus: toStatus(input.tracking?.pointsStatus),
       pointsSource: input.tracking?.pointsSource || "Unavailable"
     },
@@ -300,7 +317,8 @@ function trackingSummaryEqual(a: DashboardSnapshot["tracking"], b: DashboardSnap
     a.artemisTrackerUrl === b.artemisTrackerUrl &&
     a.pointsStatus === b.pointsStatus &&
     a.pointsSource === b.pointsSource &&
-    a.points.length === b.points.length
+    a.points.length === b.points.length &&
+    a.moonPoints.length === b.moonPoints.length
   );
 }
 
@@ -501,6 +519,7 @@ export function DashboardClient({ initial }: DashboardClientProps) {
             artemisLiveNote: prev.tracking.artemisLiveNote,
             artemisTrackerUrl: prev.tracking.artemisTrackerUrl,
             points: patch.tracking?.points || prev.tracking.points,
+            moonPoints: patch.tracking?.moonPoints || prev.tracking.moonPoints,
             pointsStatus: patch.tracking?.pointsStatus || prev.tracking.pointsStatus,
             pointsSource: patch.tracking?.pointsSource || prev.tracking.pointsSource
           }
@@ -536,6 +555,7 @@ export function DashboardClient({ initial }: DashboardClientProps) {
         ...slowSnapshot.tracking,
         ...telemetrySnapshot.tracking,
         points: slowSnapshot.tracking.points,
+        moonPoints: slowSnapshot.tracking.moonPoints,
         pointsStatus: slowSnapshot.tracking.pointsStatus,
         pointsSource: slowSnapshot.tracking.pointsSource
       }
@@ -662,7 +682,8 @@ export function DashboardClient({ initial }: DashboardClientProps) {
             status={safe.telemetry.distanceEarth.status === "live" || safe.telemetry.distanceMoon.status === "live" ? "live" : safe.telemetry.distanceEarth.status}
             note={safe.tracking.artemisLiveNote}
             updatedAt={safe.telemetry.distanceEarth.updatedAt || safe.telemetry.velocity.updatedAt}
-            referencePointsCount={safe.tracking.points.length}
+            trajectoryPoints={safe.tracking.points}
+            moonTrajectoryPoints={safe.tracking.moonPoints}
           />
 
           <TvBroadcastConsole
